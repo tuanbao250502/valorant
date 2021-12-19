@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #ff4655;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --header-height:8rem;
+   
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  html {
+    /* 62.5% = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background:url("../img/background-sprite.png") no-repeat top / cover;
+
+  }
+  body{
+    margin:0;
+  }
+  /* mui ten xuong */
+.down-icon{
+    color:rgb(121, 118, 118);
+    font-size: 1.2rem;
+    margin-left: 0.7rem;
+    margin-bottom: 1.3rem;
+ 
+}
+.down-icon>i{
+display:block;
+border-radius: 1px;
+}
+.up-icon{
+  margin:1rem 0.5rem;
+  font-size:1.2rem;
+  border-radius: 1px;
+  color:rgb(121, 118, 118);
+}
+/* chu viet header */
+.header-font{
+    font-size: 1.2rem;
+    font-weight: 1000;
+    letter-spacing: 0.1rem;
+}
+@keyframes Infade {
+    from{ 
+       
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
